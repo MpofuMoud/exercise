@@ -1,0 +1,75 @@
+body {
+  background-color: white;
+}
+:root {
+  --pry-color: #6c63ff;
+  --sec-color: #f5f2fe;
+  --h1-font-size: 80px;
+  --font-size: 18px;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  display: block;
+  margin: 60px auto;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--pry-color);
+  font-size: var(--h1-font-size);
+}
+h3 {
+  font-size: 36px;
+}
+h4 {
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+.links {
+  margin-top: 80px;
+  diplay: flex;
+  justify-content: center;
+}
+
+.contact-me,
+.about-me {
+  border: 2px solid var(--pry-color);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+  padding: 20px 15px;
+  margin: 20px;
+  text-decoration: none;
+}
+.contact-me {
+  color: white;
+  background-color: var(--pry-color);
+}
+.about-me {
+  color: var(--pry-color);
+}
+.home-page {
+  color: var(--primary-color);
+  display: block;
+}
+.info {
+  display: flex;
+  justify-content: center;
+}
+.info p {
+  margin: 20px;
+  padding: 20px 15px;
+  background-color: var(--sec-color);
+  border-radius: 5px;
+  font-size: var(--font-size);
+  flex: 1;
+  text-align: center;
+}
+
+a:hover {
+  color: blue;
+  cursor: pointer;
+}
