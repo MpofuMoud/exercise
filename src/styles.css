@@ -73,3 +73,7 @@ a:hover {
   color: blue;
   cursor: pointer;
 }
+.navbar-brand {
+  opacity: 0.8;
+  color: var(--pry-color);
+}
